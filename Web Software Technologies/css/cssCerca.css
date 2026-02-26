@@ -1,0 +1,8 @@
+/* CSS BACKGROUNDS */
+
+body {
+	background-image : url(sfondo1.png);					 /* IMPOSTA UN' IMMAGINE COME SFONDO DI UNA PAGINA */
+	background-position : top center;						 /* POSIZIONA UN' IMMAGINE DI SFONDO */
+	background-attachment : fixed;						     /* IMPOSTA UN' IMMAGINE DI SFONDO FISSA */
+	background-color : LightCyan ;                           /* IMPOSTA IL COLORE DI SFONDO DI UNA PAGINA */
+}

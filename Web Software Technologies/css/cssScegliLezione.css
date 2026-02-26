@@ -1,0 +1,27 @@
+#header {
+    background-color : white;
+	position : sticky;									
+	top : 0;
+}
+#body {
+	position : relative;
+	top : 50px;
+	left : 40px;
+	height : 800px;
+	width : 1300px;
+}
+
+td {
+	vertical-align : top;
+	padding : 15px;	
+}
+
+#selezione {
+	text-align : left;
+	width : 200px;
+}
+
+#risultato {
+	height : 1000px;
+	width : 150px;
+}

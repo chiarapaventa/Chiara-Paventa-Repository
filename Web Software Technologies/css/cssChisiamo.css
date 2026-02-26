@@ -1,0 +1,155 @@
+/* CSS TEXT */
+body {
+	font-size : 20px;                                  /* IMPOSTA LA DIMENSIONE DEL FONT IN PIXEL */
+}
+
+
+/* ELEMENT SELECTOR */
+/* CSS TEXT */
+/* CSS FONTS */
+p {
+	text-align : center;                               /* ALLINEA IL TESTO */
+	font-family : "Times New Roman", Times, Serif;     /* IMPOSTA IL FONT DI UN TESTO */
+	font-style : italic;			                   /* IMPOSTA LO STYLE DEL FONT */
+	font-size : 95%;                                   /* IMPOSTA LA DIMENSIONE DI UN FONT IN PERCENTUALE */
+	font-variant : normal;                             /* IMPOSTA IL VARIANT DEL FONT */
+	font-weight : bold;                                /* IMPOSTA IL BOLDNESS DEL FONT */
+	
+	background-color : AliceBlue;
+	text-transform: uppercase;
+	text-indent: 30px;
+	letter-spacing: 3px;                               /* SPECIFICO LO SPAZIO TRA CARATTERI */
+	line-height: 1.5;				                   /* SPECIFICO LO SPAZIO TRA LINEE */
+	margin-left : 0.5 cm;
+	margin-right : 0.5 cm;
+}
+
+/* ID SELECTOR */
+#block1 {
+	background-color : LightCyan;
+	color : red;
+}
+
+#block2 {
+	background-color : LightCyan;
+	color : grey;
+}
+
+/* CSS FONTS */
+/* CLASS SELECTOR */
+/* CSS BORDER, MARGIN, PADDING */
+P.classe {
+	text-align : center;								   /* ALLINEA IL TESTO */
+	text-transform: uppercase;
+	text-indent: 30px;
+	
+	font-family : "Times New Roman", Times, Serif;		   /* IMPOSTA IL FONT DI UN TESTO */
+	font-size : 0.5cm;                                       /* IMPOSTA LA DIMENSIONE DI UN FONT IN CM */
+	font-style : italic;                                   /* IMPOSTA LO STYLE DEL FONT */
+	font-variant : normal;                                 /* IMPOSTA IL VARIANT DEL FONT */
+	font-weight : bold;									   /* IMPOSTA IL BOLDNESS DEL FONT */
+	
+	background-color : AliceBlue ;
+
+	letter-spacing: 3px;
+	line-height: 1.5;
+														   
+	border-top-style: groove;							   /* IMPOSTA LO STYLE DEL BORDER */
+	border-right-style: dashed;							   /* IMPOSTA LO STYLE DEL BORDER */
+	border-bottom-style: groove;						   /* IMPOSTA LO STYLE DEL BORDER */
+	border-left-style: dashed;							   /* IMPOSTA LO STYLE DEL BORDER */
+	/* border-style : groove dashed; */					   /* METODO EQUIVALENTE PER IMPOSTARE LO STYLE DEL BORDER */						
+	border-width: 3px;									   /* IMPOSTA IL WIDTH DEL BORDER */
+	border-color: blue grey blue;						   /* IMPOSTA IL COLOR DEL BORDER */
+	border-radius: 5px;									   /* AGGIUNGI UN BORDER ARROTONDATO */
+	
+	margin-top: 70px;									   /* SPECIFICA UN MARGIN DIVERSO PER OGNI LATO */
+	margin-bottom: 120pt;								   /* SPECIFICA UN MARGIN DIVERSO PER OGNI LATO */
+	margin-right: 3cm;                                     /* SPECIFICA UN MARGIN DIVERSO PER OGNI LATO */
+	margin-left: 60px;                                     /* SPECIFICA UN MARGIN DIVERSO PER OGNI LATO */
+	/* margin : 70px 120px 150px 60px */                   /* METODO EQUIVALENTE PER SPECIFICARE UN MARGIN DIVERSO PER OGNI LATO */
+	
+	padding-top: 50px;									   /* SPECIFICA UN PADDING DIVERSO PER OGNI LATO */
+	padding-right: 30pt;								   /* SPECIFICA UN PADDING DIVERSO PER OGNI LATO */
+	padding-bottom: 2cm;								   /* SPECIFICA UN PADDING DIVERSO PER OGNI LATO */
+	padding-left: 80px;									   /* SPECIFICA UN PADDING DIVERSO PER OGNI LATO */
+	/* padding : 20px 30pt 2cm 30px; */                    /* METODO EQUIVALENTE PER SPECIFICARE UN PADDING DIVERSO PER OGNI LATO */
+	
+	width : 1100px;									       /* IMPOSTA LA LARGHEZZA DI UN ELEMENTO */
+	height : 90px;									       /* IMPOSTA L'ALTEZZA DI UN ELEMENTO */
+}
+
+/* GROUPING SELECTOR */
+h1, h2, h3 {
+	color : blue;
+	font-family : "Times New Roman", Times, Serif;
+	font-style : italic;
+	font-variant : normal;                                 /* IMPOSTA IL VARIANT DEL FONT */
+	font-weight : bold;									   /* IMPOSTA IL BOLDNESS DEL FONT */
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+/* CSS TEXT */
+#home {
+	font-size : 1em;                                         /* IMPOSTA LA DIMENSIONE DI UN FONT IN EM */
+	color : blue;
+	text-decoration : none;                                  /* RIMUOVI LA LINEA SOTTO IL LINK */
+    text-shadow: 2px 2px grey;							     /* SPECIFICA UN TEXT SHADOW PER UN ELEMENTO */
+}
+
+/* CSS DISPLAY */
+#titolo {
+	display : none;                                          /* NASCONDI UN ELEMENTO */ 
+}
+#titolo2 {
+	visibility : hidden;                                     /* NON VISUALIZZARE UN ELEMENTO */ 
+}
+#titolo3 {
+	display : inline-block;									 /* VISUALIZZA UN ELEMENTO BLOCK LEVEL COME ELEMENTO IN LINEA */ 
+}
+#titolo4 {
+	display : none;									         /* USA CSS INSIEME A JAVASCRIPT PER MOSTRARE ELEMENTI NASCOSTI */ 
+}
+#logo1 {
+	position : relative;									 /* POSIZIONA UN ELEMENTO RELATIVO ALLA FINESTRA DEL BROWSER */ 
+	left : 60;
+	top : 60px;
+}
+#logo2 {
+	position : relative;									 /* POSIZIONA UN ELEMENTO CON VALORE ASSOLUTO */ 
+	left : 1100px;
+	top : 60px;
+}
+#header {
+	background-color : white;
+	position : sticky;										 /* IMPOSTA UNO STICKY POSITIONING SU UN ELEMENTO */
+	top : 0;
+	height : 150px;
+}
+#sun {
+	position : absolute;
+	left : 500px; 
+	top : 2320px; 
+	z-index : -1;
+}
+
+#tableHome {
+	text-align : center;
+	position : absolute;
+	top : 2px;
+	background-color : LightCyan;
+	width : 110px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

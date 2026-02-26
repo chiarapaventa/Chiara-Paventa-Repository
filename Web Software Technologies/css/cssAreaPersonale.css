@@ -1,0 +1,17 @@
+table, th, tr, td {
+	border : 2px solid black;					/* SPECIFICA UN BORDO NERO PER GLI ELEMENTI TABLE, TH, TR,TD */
+	border-color: black;						/* SPECIFICA IL COLORE DEI BORDI DELLA TABELLA */	
+	text-align : center;
+}
+tr, th {
+	padding: 5px;								/* SPECIFICA IL PADDING PER GLI ELEMENTI th E tr */
+}
+#info {
+	border : 2px solid black;
+	border-color : green;						/* SPECIFICA IL COLORE DEI BORDI DI UNA TABELLA */
+	height : 347px;
+}
+#tabella {
+	width : 1000px;								/* SPECIFICA IL WIDTH DI UNA TABELLA */
+	height : 800px;								/* SPECIFICA L'HEIGHT DI UNA TABELLA */
+}
