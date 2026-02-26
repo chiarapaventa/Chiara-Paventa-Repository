@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "C:/Users/Chiara/Desktop/Progetti/Comparatore2bitXOR/Comparatore2bitXOR.xst" -ofn "C:/Users/Chiara/Desktop/Progetti/Comparatore2bitXOR/Comparatore2bitXOR.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3sd1800a-fg676-4 Comparatore2bitXOR.ngc Comparatore2bitXOR.ngd  
+map -intstyle ise -p xc3sd1800a-fg676-4 -cm area -ir off -pr off -c 100 -o Comparatore2bitXOR_map.ncd Comparatore2bitXOR.ngd Comparatore2bitXOR.pcf 
+par -w -intstyle ise -ol high -t 1 Comparatore2bitXOR_map.ncd Comparatore2bitXOR.ncd Comparatore2bitXOR.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Comparatore2bitXOR.twx Comparatore2bitXOR.ncd -o Comparatore2bitXOR.twr Comparatore2bitXOR.pcf 

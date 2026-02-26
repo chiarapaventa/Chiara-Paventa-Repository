@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Chiara/Desktop/Progetti/MajorityProva/tb_MajorityProva_isim_beh.exe" -prj "C:/Users/Chiara/Desktop/Progetti/MajorityProva/tb_MajorityProva_beh.prj" "work.tb_MajorityProva" 

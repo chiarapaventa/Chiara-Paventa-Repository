@@ -1,0 +1,5 @@
+Tutorato
+ 
+FULL ADDER 
+somma->  FullAdder ->structural
+         |->HalfAdder ->dataflow

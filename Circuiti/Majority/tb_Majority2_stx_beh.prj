@@ -1,0 +1,2 @@
+vhdl isim_temp "Majority.vhd"
+vhdl isim_temp "tb_Majority2.vhd"

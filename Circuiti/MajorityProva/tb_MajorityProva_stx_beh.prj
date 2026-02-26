@@ -1,0 +1,2 @@
+vhdl isim_temp "MajorityProva.vhd"
+vhdl isim_temp "tb_MajorityProva.vhd"

@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "C:/Users/Chiara/Desktop/Progetti/contatore/contatore.xst" -ofn "C:/Users/Chiara/Desktop/Progetti/contatore/contatore.syr" 
+xst -intstyle ise -ifn "C:/Users/Chiara/Desktop/Progetti/contatore/contatore.xst" -ofn "C:/Users/Chiara/Desktop/Progetti/contatore/contatore.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-4 contatore.ngc contatore.ngd  
+map -intstyle ise -p xc3s50-pq208-4 -cm area -ir off -pr off -c 100 -o contatore_map.ncd contatore.ngd contatore.pcf 
+par -w -intstyle ise -ol high -t 1 contatore_map.ncd contatore.ncd contatore.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml contatore.twx contatore.ncd -o contatore.twr contatore.pcf 

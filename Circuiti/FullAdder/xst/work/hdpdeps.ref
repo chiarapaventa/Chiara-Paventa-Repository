@@ -1,0 +1,13 @@
+V3 10
+FL C:/Users/Chiara/Desktop/Progetti/FullAdder/FullAdder.vhd 2017/12/14.11:33:08 P.20131013
+EN work/FullAdder 0 FL C:/Users/Chiara/Desktop/Progetti/FullAdder/FullAdder.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/FullAdder/Strutturale 0 \
+      FL C:/Users/Chiara/Desktop/Progetti/FullAdder/FullAdder.vhd \
+      EN work/FullAdder 0 CP HalfAdder CP OR
+FL C:/Users/Chiara/Desktop/Progetti/FullAdder/HalfAdder.vhd 2017/12/14.11:33:08 P.20131013
+EN work/HalfAdder 0 FL C:/Users/Chiara/Desktop/Progetti/FullAdder/HalfAdder.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/HalfAdder/Strutturale 0 \
+      FL C:/Users/Chiara/Desktop/Progetti/FullAdder/HalfAdder.vhd \
+      EN work/HalfAdder 0 CP XOR CP AND

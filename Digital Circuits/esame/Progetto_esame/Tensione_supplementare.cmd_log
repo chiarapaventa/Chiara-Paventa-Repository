@@ -1,0 +1,8 @@
+xst -intstyle ise -ifn "C:/Users/Chiara/Desktop/Progetti/esame/Progetto_esame/Tensione_supplementare.xst" -ofn "C:/Users/Chiara/Desktop/Progetti/esame/Progetto_esame/Tensione_supplementare.syr" 
+xst -intstyle ise -ifn "C:/Users/Chiara/Desktop/Progetti/esame/Progetto_esame/Tensione_supplementare.xst" -ofn "C:/Users/Chiara/Desktop/Progetti/esame/Progetto_esame/Tensione_supplementare.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-4 Tensione_supplementare.ngc Tensione_supplementare.ngd  
+map -intstyle ise -p xc3s50-pq208-4 -cm area -ir off -pr off -c 100 -o Tensione_supplementare_map.ncd Tensione_supplementare.ngd Tensione_supplementare.pcf 
+par -w -intstyle ise -ol high -t 1 Tensione_supplementare_map.ncd Tensione_supplementare.ncd Tensione_supplementare.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Tensione_supplementare.twx Tensione_supplementare.ncd -o Tensione_supplementare.twr Tensione_supplementare.pcf 
+xst -intstyle ise -ifn "C:/Users/Chiara/Desktop/Progetti/esame/Progetto_esame/Tensione_supplementare.xst" -ofn "C:/Users/Chiara/Desktop/Progetti/esame/Progetto_esame/Tensione_supplementare.syr" 
+xst -intstyle ise -ifn "C:/Users/Chiara/Desktop/Progetti/esame/Progetto_esame/Tensione_supplementare.xst" -ofn "C:/Users/Chiara/Desktop/Progetti/esame/Progetto_esame/Tensione_supplementare.syr" 

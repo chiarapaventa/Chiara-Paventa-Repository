@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Chiara/Desktop/Progetti/Majority/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Chiara/Desktop/Progetti/Majority/xst"
+elaborate
+-ifn Majority.prj
+-ifmt mixed

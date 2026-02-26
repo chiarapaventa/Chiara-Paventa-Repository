@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Chiara/Desktop/Progetti/FullAdder/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Chiara/Desktop/Progetti/FullAdder/xst"
+elaborate
+-ifn HalfAdder.prj
+-ifmt mixed

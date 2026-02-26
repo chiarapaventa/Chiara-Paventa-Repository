@@ -1,0 +1,7 @@
+ESERCIZIO
+majority 3 bit con MUX
+-usate MUX con 8 ingressi (da I0 a I7) ed un vettore S per i segnali di controllo
+-usare un processo nell'architecture
+-usare le istruzioni di assegnazione 
+   +p.e. (when..else) o (case..when)
+-simulare

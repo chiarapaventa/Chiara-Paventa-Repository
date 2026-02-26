@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "C:/Users/Chiara/Desktop/Progetti/Comparatore2bit/Comparatore2bit.xst" -ofn "C:/Users/Chiara/Desktop/Progetti/Comparatore2bit/Comparatore2bit.syr" 
+xst -intstyle ise -ifn "C:/Users/Chiara/Desktop/Progetti/Comparatore2bit/Comparatore2bit.xst" -ofn "C:/Users/Chiara/Desktop/Progetti/Comparatore2bit/Comparatore2bit.syr" 
+xst -intstyle ise -ifn "C:/Users/Chiara/Desktop/Progetti/Comparatore2bit/Comparatore2bit.xst" -ofn "C:/Users/Chiara/Desktop/Progetti/Comparatore2bit/Comparatore2bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3sd1800a-fg676-4 Comparatore2bit.ngc Comparatore2bit.ngd  
+map -intstyle ise -p xc3sd1800a-fg676-4 -cm area -ir off -pr off -c 100 -o Comparatore2bit_map.ncd Comparatore2bit.ngd Comparatore2bit.pcf 
+par -w -intstyle ise -ol high -t 1 Comparatore2bit_map.ncd Comparatore2bit.ncd Comparatore2bit.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Comparatore2bit.twx Comparatore2bit.ncd -o Comparatore2bit.twr Comparatore2bit.pcf 
